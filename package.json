@@ -1,0 +1,40 @@
+{
+  "name": "postcss-hairlines",
+  "version": "0.0.0",
+  "description": "PostCSS plugin for transform your border to retina hairlines",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "retain",
+    "hairlines"
+  ],
+  "scripts": {
+    "test": "jest && eslint ."
+  },
+  "author": "zhoucheng <11467423@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhouchengi/postcss-hairlines.git"
+  },
+  "dependencies": {
+    "postcss": "^7.0.27"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-jest": "^23.8.0",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^25.1.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
